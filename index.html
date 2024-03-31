@@ -170,24 +170,18 @@
         
         <script>
             document.addEventListener('DOMContentLoaded', function () {
-                // Periksa status pendaftaran pengguna (contoh: menggunakan localStorage)
                 const isRegistered = localStorage.getItem('registered');
     
                 if (isRegistered) {
-                    // Pengguna telah mendaftar, sembunyikan halaman pendaftaran
                     document.getElementById('registrationPage').style.display = 'none';
-                    // Tampilkan halaman beranda
                     document.getElementById('homePage').style.display = 'block';
                 }
     
-                // Tambahkan event listener untuk form pendaftaran
                 const form = document.querySelector('#registrationForm');
                 form.addEventListener('submit', function (event) {
                     event.preventDefault();
-                    // Simpan status pendaftaran pengguna
                     localStorage.setItem('registered', 'true');
-                    // Redirect pengguna ke halaman beranda
-                    window.location.href = 'index.html'; // Ganti dengan halaman beranda Anda
+                    window.location.href = 'index.html';
                 });
             });
         </script>
