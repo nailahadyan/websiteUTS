@@ -1,0 +1,225 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Lucida Sans';
+    float: left;
+    color: #D14D72 
+    
+}
+
+.menu{
+   position: absolute;
+   top: 0;
+   right: 0;
+   float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: #FEF2F4;
+    z-index: 1;
+    border-bottom: 3px solid #D14D72;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;  
+    display: block;  
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-family: 'Lucida Sans'; 
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: #D14D72; 
+}
+
+p{
+    font-family:  'Lucida Sans';
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.tengah{
+    text-align:center;
+    width: 100%;
+}
+
+#jadwal_perkuliahan {
+    margin-top: 50px;
+}
+
+#jadwal_perkuliahan table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#jadwal_perkuliahan th, #jadwal_perkuliahan td {
+    border: 1px solid #0f0e0e;
+    padding: 8px;
+    text-align: left;
+}
+
+#jadwal_perkuliahan th {
+    background-color: #ca6666;
+    font-weight: bold;
+}
+
+#jadwal_perkuliahan tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+#jadwal_perkuliahan tr:hover {
+    background-color: #ffffff;
+}
+#jadwal_perkuliahan .kolom img {
+    float: left;
+    margin-right: 20px; 
+}
+
+.hobi-item {
+    width: calc(33.33% - 20px); 
+    margin: 10px; 
+    text-align: center; 
+    padding: 10px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+}
+
+.hobi-item img {
+    width: 100%; 
+    height: auto; 
+    border: 4px solid #D14D72; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    
+}
+
+#hobi .kolom {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.hobi-item {
+    width: calc(33.33% - 20px); 
+    margin: 50px; 
+    text-align: center; 
+}
+
+.kolom .Hobi{
+    font-family: 'Lucida Sans'; 
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: #D14D72; 
+    text-align: center;
+}
+
+#pendaftaran {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    max-width: 600px; 
+}
+
+
+#pendaftaran .deskripsi{
+    text-align: center;
+}
+
+#pendaftaran form {
+    padding: 20px;
+    border: 1px solid #D14D72;
+    border-radius: 10px;
+    background-color: #fefefe;
+}
+
+#pendaftaran form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#pendaftaran form input[type="text"],
+#pendaftaran form input[type="email"],
+#pendaftaran form input[type="tel"],
+#pendaftaran form textarea {
+    width: calc(100% - 12px);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#pendaftaran form input[type="submit"] {
+    background-color: #D14D72;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pendaftaran form input[type="submit"]:hover {
+    background-color: #ff6384;
+}
