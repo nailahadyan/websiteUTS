@@ -217,9 +217,7 @@ p{
     transform: translate(-50%, -50%);
     width: 50%;
     max-width: 600px; 
-    background-image: url('gambar/bg.jpg');
-    background-size: cover;
-    background-position: center;
+    padding: 100px;
 }
 
 #pendaftaran .deskripsi{
